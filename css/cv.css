@@ -144,9 +144,9 @@ body {
 
 .lineContainer {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 70%;
+    top: 5%;
+    left: 30%;
+    width: 10%;
     height: 100%;
     text-align: center;
     overflow: hidden;
@@ -166,6 +166,7 @@ svg {
 
 section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 60%;
