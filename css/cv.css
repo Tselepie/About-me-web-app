@@ -144,7 +144,7 @@ body {
 
 .lineContainer {
     position: fixed;
-    top: 5%;
+    top: 0;
     left: 30%;
     width: 10%;
     height: 100%;
@@ -203,6 +203,23 @@ section p {
     color: var(--color1);
     line-height: 1.5;
     width: 50%;
+    margin-bottom: 0.5rem;
+}
+
+section p:nth-child(4) {
+    margin-bottom: 0;
+}
+
+section span {
+    color: white;
+}
+
+section a {
+    color: white;
+}
+
+.contactForm {
+    height: 110vh;
 }
 
 .slider {
